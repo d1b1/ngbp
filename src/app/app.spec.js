@@ -3,7 +3,7 @@ describe( 'AppCtrl', function() {
     var AppCtrl, $location, $scope;
 
     beforeEach( module( 'ngBoilerplate' ) );
-
+    
     beforeEach( inject( function( $controller, _$location_, $rootScope ) {
       $location = _$location_;
       $scope = $rootScope.$new();
@@ -13,5 +13,6 @@ describe( 'AppCtrl', function() {
     it( 'should pass a dummy test', inject( function() {
       expect( AppCtrl ).toBeTruthy();
     }));
+
   });
 });
